@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      username: cactus
+      password: cactus
+      url: jdbc:mysql://localhost:3306/cactus_college
+    
+   jpa:
+      hibernate:
+         ddl-auto: create
+      show-sql: true
+      defer-datasource-initialization: true
+   
+   sql:
+      init:
+         mode: always

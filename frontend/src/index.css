@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+.brand-bg {
+  background-color:#29401E;
+}
+
+.brand-font {
+  font-family: "Antonio", sans-serif;
+}
+
